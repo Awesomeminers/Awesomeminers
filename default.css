@@ -11,30 +11,68 @@ h1 {
 	font-family: Calibri
 }
 
+
 grey {
 	color: Grey;
 	font-family: Calibri
 }
 
 
+.content_submenu_top {
+	background-image: url('media/images/submenu_top.png');
+	background-repeat: repeat-x;
+	text-align: right;
+	width: 1000px;
+	height: 35px;
+	margin-top: -10px;
+	margin-bottom: 0px; 
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0 0 5px 5px #aaa;
+	-moz-box-shadow: 0 0 5px 5px #aaa;
+	webkit-box-shadow: 0 0 5px 5px #aaa;
+}
+
+.content_submenu_left{
+	background-color: Transparent;
+	color: white;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 10px;
+	width: 100px;
+	margin-top: 0;
+	float: left;		  
+}
+
+
+.content_submenu_right{
+	background-color: Transparent;
+	color: white;
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 10px;
+	width: 500px;
+	margin-top: 0;
+	float: right;			  
+}
+
+
 .content_pattern_top {
 	background-image: url('media/images/pattern.png');
-	background-repeat:repeat-y
-	margin-top: -15px;
+	background-repeat:repeat-y;
+	color: grey;
 	text-align: right;
 	width: 990px;
 	height: 55px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 10px;
+	margin-top: 30px; 
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	-moz-box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	webkit-box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
+	box-shadow: 0 0 5px 5px #aaa;
+	-moz-box-shadow: 0 0 5px 5px #aaa;
+	webkit-box-shadow: 0 0 5px 5px #aaa;
 	/*text-align: left;
 	padding-top: 5px;
 	padding-left: 20px;
@@ -287,3 +325,68 @@ div[sprite=logo-bukkit] {
 	width: 110px;
 	height: 35px;
 }
+
+
+#submenu-icons {
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+
+	#submenu-icons * {
+		margin: 2px 5px;
+		display: inline-block;
+	}
+
+	#submenu-icons div[sprite] {
+		vertical-align: middle;
+		opacity: 0.5;
+	}
+
+	#submenu-icons div[sprite]:hover {
+		opacity: 1;
+	}
+
+div[sprite=icon-settings] {
+	background: url(media/images/icons/submenu-icons.png) no-repeat;
+	background-position: -20px 0;
+	width: 20px;
+	height: 20px;
+}
+
+
+
+	
+input{
+	color: white;
+	background-color: #505050;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#797979), to(#505050));
+	background-image: -moz-linear-gradient(top,  #797979,  #505050);
+	background-image: -o-linear-gradient(top,  #797979,  #505050);
+	border-color: #505050;
+	outline-style: none;
+}
+
+input:hover,
+.button:hover {
+	color: black;
+	background: #c8c8c8;
+	border-color: #000;
+}
+
+
+input:active,
+.button:active {
+	color: black;
+	background: #c8c8c8;
+	border-color: #000;
+}
+
+
+/*fuck you IE*/	
+img {
+  border:none;
+}
+/* end fuck you IE*/	
