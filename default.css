@@ -73,11 +73,6 @@ grey {
 	box-shadow: 0 0 5px 5px #aaa;
 	-moz-box-shadow: 0 0 5px 5px #aaa;
 	webkit-box-shadow: 0 0 5px 5px #aaa;
-	/*text-align: left;
-	padding-top: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-	border: thin solid #918f61;*/
 }
 
 
@@ -96,10 +91,6 @@ grey {
                   -5px  5px  5px  #aaa;
 	webkit-box-shadow:   5px  5px  5px  #aaa,
                   -5px  5px  5px  #aaa;
-	/*text-align: left;
-	padding-right: 20px;
-	margin-top: 50px;
-	border: thin solid #918f61;*/
 }
 
 
@@ -116,8 +107,6 @@ grey {
                   -5px  5px  5px  #aaa;
 	webkit-box-shadow:   5px  5px  5px  #aaa,
                   -5px  5px  5px  #aaa;
-	/*border: thin solid #918f61;
-	text-align: left;*/
 }
 
 
@@ -138,8 +127,6 @@ grey {
                   -5px  5px  5px  #aaa;
 	webkit-box-shadow:   5px  5px  5px  #aaa,
                   -5px  5px  5px  #aaa;	
-	/*margin-top: 50px;
-	border: thin solid #918f61 */	
 }
 
 
@@ -153,15 +140,7 @@ grey {
 	width: 710px;
 	margin-top: 15px;
 	float: left;
-	border: thin solid #918f61
-	/*box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	-moz-box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	webkit-box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	margin-right: auto;
-	margin-left: 0px;*/				  
+	border: thin solid #918f61		  
 }
 
 
@@ -175,15 +154,7 @@ grey {
 	width: 200px;
 	margin-top: 15px;
 	float: right;
-	border: thin solid #918f61
-	/*box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	-moz-box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	webkit-box-shadow:   5px  5px  5px  #aaa,
-                  -5px  5px  5px  #aaa;
-	margin-right: 5px;
-	margin-left: auto;*/				  
+	border: thin solid #918f61				  
 }
 
 
@@ -196,8 +167,6 @@ grey {
 	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;	
-	/* border: thin solid #918f61*/
-	/* border: thin solid #918f61 */
 }
 
 
@@ -357,8 +326,6 @@ div[sprite=icon-settings] {
 }
 
 
-
-	
 input{
 	color: white;
 	background-color: #505050;
@@ -368,6 +335,7 @@ input{
 	border-color: #505050;
 	outline-style: none;
 }
+
 
 input:hover,
 .button:hover {
