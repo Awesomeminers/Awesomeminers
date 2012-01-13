@@ -216,6 +216,8 @@ grey {
 	margin-top: 15px;
 	float: left;
 	border: thin solid #918f61;
+	color: darkred;
+	font-size: 13px;
 }
 
 
