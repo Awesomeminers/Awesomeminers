@@ -1,4 +1,4 @@
-This is the Template form the Awesomeminers Projekt.
-Code (c) Fisico / David G.
-Images (c) Fisico / David G.
+This is the Template for the Awesomeminers Projekt.
+Code (c) David (Fisico) G.2011-2012
+Images (c) David (Fisico) G.2011-2012
 Logo and Submenu-Icons (c) Skizz
